@@ -12,8 +12,8 @@
 <body>
     <div class="pigly__header">
         <h1 class="header__title">PiGLy</h1>
-        <a href="" class="change link">目標体重設定</a>
-        <a href="" class="logout">ログアウト</a>
+        <a href="/login" class="change link">目標体重設定</a>
+        <a href="/logout" class="logout">ログアウト</a>
     </div>
     @yield('content')
 </body>

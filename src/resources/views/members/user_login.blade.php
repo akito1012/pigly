@@ -8,7 +8,8 @@
 
 <h2 class="content">ログイン</h2>
 <div class="login__inner">
-    <form action="" class="login__form">
+    <form action="/weight_logs" class="login__form" method="post">
+        @csrf
         <div class="login__item">
             <label for="email" class="login__label">メールアドレス</label>
             <input type="text" class="login__input" id="email" name="email" placeholder="メールアドレスを入力">
@@ -23,8 +24,8 @@
             <button class="login__button-submit" type="submit">ログイン</button>
         </div>
     </form>
-    <div class="login__link">
-        <a href="">アカウント作成はこちら</a>
+    <div class="register__link">
+        <a href="/register/step1">アカウント作成はこちら</a>
     </div>
 </div>
 
