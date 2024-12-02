@@ -4,7 +4,7 @@
 
 ###Dockerビルド
 
-１．git clone git@github.com:akito1012/test2.git
+１．git clone git@github.com:akito1012/pigly.git
 
 ２．DockerDesktopアプリを立ち上げる
 
