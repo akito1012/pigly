@@ -19,6 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 // route::middleware('auth')->group(function () {
 //     Route::get('/weight_logs', [WeightsController::class, 'index']);
 // });
@@ -29,6 +30,9 @@ Route::get('/weight_logs/goal_setting', [WeightsController::class, 'change']);
 Route::post('/weight_logs/goal_setting', [WeightsController::class, 'update']);
 
 Route::get('/modal', [WeightsController::class, 'modal']);
+=======
+Route::get('/weight_logs', [WeightsController::class, 'index']);
+>>>>>>> 5892bd1aa6abae8dc313f71a32aef03821ba2dd1
 
 Route::get('/login', [UsersController::class, 'login']);
 Route::post('/login', [UsersController::class, 'login']);

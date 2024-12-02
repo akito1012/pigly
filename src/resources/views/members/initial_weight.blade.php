@@ -14,20 +14,26 @@
         <div class="initial__item">
             <label for="current_weight" class="initial__label">現在の体重</label>
             <input type="text" class="initial__input" id="current_weight" name="weight" value="{{ old('weight') }}" placeholder="現在の体重を入力">
+<<<<<<< HEAD
         </div>
         <div class="error">
             @error('weight')
             {{ $message }}
             @enderror
+=======
+>>>>>>> 5892bd1aa6abae8dc313f71a32aef03821ba2dd1
         </div>
         <div class="initial__item">
             <label for="target_weight" class="initial__label">目標体重</label>
             <input type="text" class="initial__input" id="target_weight" name="target_weight" value="{{ old('target_weight') }}"  placeholder="目標体重を入力">
+<<<<<<< HEAD
         </div>
         <div class="error">
             @error('target_weight')
             {{ $message }}
             @enderror
+=======
+>>>>>>> 5892bd1aa6abae8dc313f71a32aef03821ba2dd1
         </div>
         <div class="initial__button">
             <button class="initial__button-submit" type="submit">アカウント作成</button>

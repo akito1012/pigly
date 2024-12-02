@@ -8,7 +8,11 @@
 
 <h2 class="content">ログイン</h2>
 <div class="login__inner">
+<<<<<<< HEAD
     <form action="/login" class="login__form" method="post">
+=======
+    <form action="/weight_logs" class="login__form" method="post">
+>>>>>>> 5892bd1aa6abae8dc313f71a32aef03821ba2dd1
         @csrf
         <div class="login__item">
             <label for="email" class="login__label">メールアドレス</label>
