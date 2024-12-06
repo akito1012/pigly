@@ -3,16 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-<<<<<<< HEAD
 use App\Models\WeightLog;
 use App\Http\Requests\CreateRequest;
-=======
->>>>>>> 5892bd1aa6abae8dc313f71a32aef03821ba2dd1
 
 
 class WeightsController extends Controller
 {
-<<<<<<< HEAD
     public function index(Request $request)
     {
         $weight_logs = $request->all();
@@ -55,10 +51,4 @@ class WeightsController extends Controller
         return redirect('members');
     }
 
-=======
-    public function index()
-    {
-        return view('management');
-    }
->>>>>>> 5892bd1aa6abae8dc313f71a32aef03821ba2dd1
 }
